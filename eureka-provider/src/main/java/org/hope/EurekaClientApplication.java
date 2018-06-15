@@ -1,15 +1,16 @@
 package org.hope;
 /**
- * 服务注册中心
+ * 服务提供者
  */
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+
+@EnableEurekaClient
 @SpringBootApplication
-@EnableEurekaServer
-public class EurekaServerApplication {
+public class EurekaClientApplication {
     public static void main(String[] args) {
-        SpringApplication.run(EurekaServerApplication.class,args);
+        SpringApplication.run(EurekaClientApplication.class,args);
     }
 }
