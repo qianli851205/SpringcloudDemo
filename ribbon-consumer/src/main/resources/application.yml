@@ -1,12 +1,12 @@
 eureka:
   client:
     serviceUrl:
-      #×¢²áÖĞĞÄµÄµØÖ·
       defaultZone: http://localhost:8761/eureka/,http://eureka1:1111/eureka/,http://eureka2:1112/eureka/
+    # Eurekaå®¢æˆ·ç«¯å¥åº·ç›‘æµ‹äº¤ç”±spring-boot-actuatoræ¨¡å—çš„/healthç«¯ç‚¹
+    healthcheck:
+      enabled: true
 server:
-  #µ±Ç°·şÎñ¶Ë¿ÚºÅ
   port: 8765
 spring:
   application:
-    #µ±Ç°Ó¦ÓÃÃû³Æ
     name: ribbon-consumer
