@@ -13,6 +13,7 @@ import org.hope.entity.User;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Random;
 import java.util.stream.Collectors;
 
 @RestController
@@ -23,8 +24,13 @@ public class HelloController {
     private DiscoveryClient client;
 
     @GetMapping(value="hello")
-    public String index(){
+    public String index() throws Exception{
         ServiceInstance instance = client.getLocalServiceInstance();
+        //测试超时
+        int sleepTime = new Random().nextInt(3000);
+        logger.info("sleepTime:"+sleepTime);
+        Thread.sleep(sleepTime);
+
         logger.info("/hello, host:{}, service_id:{}" , instance.getHost() , instance.getServiceId());
         return "Hello World";
     }

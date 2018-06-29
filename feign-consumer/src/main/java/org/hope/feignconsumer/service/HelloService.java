@@ -4,7 +4,7 @@ import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 import org.hope.feignconsumer.entity.User;
 
-@FeignClient("SERVICE-HI")
+@FeignClient(name="SERVICE-HI",fallback = HelloServiceFallback.class)
 public interface HelloService {
   @RequestMapping("/hello")
     String hello();
