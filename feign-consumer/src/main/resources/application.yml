@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: feign-consumer
+server:
+  port: 8765
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/,http://eureka1:1111/eureka/,http://eureka2:1112/eureka/
