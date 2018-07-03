@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="api-gateway" />
         <module name="eureka-client" />
         <module name="eureka-provider" />
         <module name="eureka-provider-api" />
@@ -14,6 +15,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="api-gateway" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-provider" target="1.8" />
       <module name="eureka-provider-api" target="1.8" />
