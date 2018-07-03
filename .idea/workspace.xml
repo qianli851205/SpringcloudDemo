@@ -7,10 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2185438-6298-4e4c-bd8f-b81e7300da2b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/org/hope/apigateway/filter/ErrorFileter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/org/hope/apigateway/filter/ErrorextFilter.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/org/hope/apigateway/filter/AccessFilter.java" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/org/hope/apigateway/filter/AccessFilter.java" />
     </list>
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/eureka-client/target/" />
@@ -519,12 +516,12 @@
       <workItem from="1530180478650" duration="1004000" />
       <workItem from="1530236373624" duration="13898000" />
       <workItem from="1530495233589" duration="9914000" />
-      <workItem from="1530581909463" duration="5812000" />
+      <workItem from="1530581909463" duration="6434000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86904000" />
+    <option name="totallyTimeSpent" value="87526000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
