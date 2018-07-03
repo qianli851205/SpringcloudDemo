@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/qianli851205/SpringcloudDemo.git
+          search-paths: config-repo
+          username: qianli851205
+          password: 123hudiefei
+server:
+  port: 9000
