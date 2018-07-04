@@ -4,13 +4,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/eureka-client/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/feign-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-provider-api/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
       </list>
     </option>
   </component>
