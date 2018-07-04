@@ -6,8 +6,9 @@ spring:
       server:
         git:
           uri: https://github.com/qianli851205/SpringcloudDemo.git
-          search-paths: config-repo
+          search-paths: config-server/config-repo
           username: qianli851205
           password: 123hudiefei
+      label: config
 server:
   port: 9000
